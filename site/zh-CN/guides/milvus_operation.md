@@ -53,7 +53,7 @@ sidebar_label: Learn Milvus Operations
    
 ### 获取集合的统计信息
 
-您可以调用如下接口查询集合的统计信息。查询结果的信息包含集合/分区/段的向量数量，存储使用量等信息。参考[此处](https://github.com//milvus-io/pymilvus/blob/master/examples/example_vector.h)获取更详细的使用方式。
+您可以调用如下接口查询集合的统计信息。查询结果的信息包含集合/分区/段的向量数量，存储使用量等信息。参考[此处](https://github.com//milvus-io/pymilvus/blob/master/examples/example_vectors.py)获取更详细的使用方式。
 
 ```python
 >>> milvus.collection_info('test01')
